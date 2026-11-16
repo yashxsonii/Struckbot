@@ -51,10 +51,10 @@ Available Commands:
 /struckbot-joke - gets you a joke
 /struckbot-help - gets you this window
 /struckbot-catfact - Get a cat fact
-/struckbot-meme - Meme for ya
+/struckbot-meme - Meme for ya`
   });
 });
-app.command("/meme", async ({ ack, respond }) => {
+app.command("/struckbot-meme", async ({ ack, respond }) => {
   await ack();
 
   try {
