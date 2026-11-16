@@ -13,7 +13,7 @@ app.command("/struckbot-ping", async ({ command, ack, respond }) => {
   const start = Date.now();
   await ack();
   const latency = Date.now() - start;
-  await respond({ text: `Pong! :time: \nLatency: ${latency}ms` });
+  await respond({ text: `Yayy  :time: \nLatency: ${latency}ms` });
 });
 app.command("/struckbot-catfact", async ({ ack, respond }) => {
   await ack();
@@ -22,7 +22,7 @@ app.command("/struckbot-catfact", async ({ ack, respond }) => {
     const response = await axios.get("https://catfact.ninja/fact");
     await respond({ text: `Cat Fact:\n${response.data.fact}` });
   } catch (err) {
-    await respond({ text: "Failed to fetch a cat fact." });
+    await respond({ text: "Cat is Busy it ain't unemployed." });
   }
 });
 app.command("/struckbot-joke", async ({ ack, respond }) => {
@@ -37,7 +37,7 @@ app.command("/struckbot-joke", async ({ ack, respond }) => {
 ${response.data.punchline}`
     });
   } catch (err) {
-    await respond({ text: "Failed to fetch a joke." });
+    await respond({ text: "no joke this time u are enough" });
   }
 });
 app.command("/struckbot-help", async ({ ack, respond }) => {
