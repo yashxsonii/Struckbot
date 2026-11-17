@@ -1,5 +1,4 @@
 # Struckbot
-![Text](https://hackatime.hackclub.com/api/v1/badge/U091KQCP85Q/yashxsonii/Struckbot)
 
 It's a slackbot made using javascript that perform some basic features in a slack channel like fetching ping,jokes,memes etc. made with help of guide [Make a Slackbot](https://stardance.hackclub.com/missions/slack-bot)
 but it is slightly basic.
