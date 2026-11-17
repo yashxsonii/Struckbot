@@ -18,8 +18,7 @@ Meme api is facing outage. so `/struckbot-meme` won't work.
 git clone https://github.com/yashxsonii/Struckbot
 cd Struckbot
 npm install
-nano .env
-touch .env # add your slack bot and slack app token here
+nano .env    # add your slack bot and slack app token here
 node index.js
 nano /etc/systemd/system/slackbot.service # responsible for running it 24/7
  ```
